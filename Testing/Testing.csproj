@@ -5,12 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="bin\Debug\net6.0\appsettings.json" />
+    <PackageReference Include="Dapper" Version="2.0.143" />
+    <PackageReference Include="MySql.Data" Version="8.0.33" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.0.143" />
-    <PackageReference Include="MySql.Data" Version="8.0.33" />
+    <Folder Include="bin\Debug\net6.0\" />
   </ItemGroup>
 
 
